@@ -1,0 +1,19 @@
+{
+    "name": "SocialNetworkAPIChallent",
+    "version": "1.0.1",
+    "description": "FullStackDevChallenge18",
+    "main": "server.js",
+    "license": "none",
+    "scripts": {
+      "start": "node server",
+      "dev": "nodemon server",
+      "seed": "node utils/seeds"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^7.0.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.9"
+    }
+  }
